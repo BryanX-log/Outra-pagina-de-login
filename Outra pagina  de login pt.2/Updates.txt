@@ -1,0 +1,5 @@
+	Projeto servindo para aprendizado de telas de login
+
+Essa segunda parte contêm um update em relação a versatilidade que o site pode ter, podendo ser executado em smartphones e computadores de diferentes resoluções.
+
+Obs: o papel de parede também foi alterado para adicionar um estilo um pouco mais dark ao mesmo tempo luminoso.
