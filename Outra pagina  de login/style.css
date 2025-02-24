@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  
+    box-sizing: border-box;
+    font-family: "Noto Sans", serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(70, 20, 163, 0.199), rgba(26, 235, 54, 0)), url(./imagens/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.tudo{
+    border: 2px rgba(255, 255, 255, 0.39) solid;
+    border-radius: 30px;
+    padding: 80px;
+    flex-wrap: wrap;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 150, 255, 0.5);
+}
+.item-1{
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.item-2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+    width: 400px;
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 2px white solid;
+}
+.item-3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+    width: 400px;
+    border: transparent;
+    background-color: transparent;
+    border-bottom: 2px white solid;
+}
+.item-4{
+display: inline-flex;
+position: relative;
+/* left: 150px;
+top: -10px; */
+
+}
+.item-5{
+display: inline-flex;
+
+}
+.item-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+}
+.item-7{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.item-7 a{
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+.bloco{
+    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(36, 36, 138, 0.288));
+    border-radius: 30px;
+}
